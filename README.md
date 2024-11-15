@@ -8,9 +8,10 @@
 
 ### Installing on Windows
 
-Install git via winget (*should be the default*)
+Install git via winget (*should be the default*), we also install zig, it is necessary for the compilation that treesitter requires.
 ```bash
 winget install --id git.git -e --source winget
+winget install -e --id zig.zig
 ```
 
 Go to the directory where the configuration will be located and then clone it from this github repository.
