@@ -29,10 +29,17 @@ require("lazy").setup({
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
 
-    -- {
-    --     "folke/trouble.nvim", opts = {},
-    --     dependencies = { "nvim-tree/nvim-web-devicons" }
-    -- },
+    --[[
+    {	
+	'akinsho/toggleterm.nvim', version = "*", 
+	config = true
+    },
+
+    {
+        "folke/trouble.nvim", opts = {},
+        dependencies = { "nvim-tree/nvim-web-devicons" }
+    },
+    --]]
 
     {
         'folke/which-key.nvim', event = 'VeryLazy',

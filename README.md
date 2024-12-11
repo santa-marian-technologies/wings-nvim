@@ -17,7 +17,7 @@ winget install -e --id zig.zig
 Go to the directory where the configuration will be located and then clone it from this github repository.
 ```bash
 cd ~/appdata/local
-git clone https://github.com/santa-marian-techonologies/wings-nvim nvim
+git clone https://github.com/santa-marian-technologies/wings-nvim nvim
 ```
 
 Launch neovim with this command:
